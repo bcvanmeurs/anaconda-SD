@@ -29,4 +29,4 @@ To stop running the container press ctrl-c in the terminal, and confirm with y.
 
 To enter the shell (command line interface) of your container, to install other python packages or run python in a direct interpreter run:
 
-    docker exec anaconda3-sd bash
+    docker exec -it anaconda3-sd bash
