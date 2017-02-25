@@ -2,9 +2,11 @@
 Anaconda installation with system dynamics packages preinstalled
 ## Installation
 **Install docker desktop**
+
 Goto [docker.com](https://www.docker.com/products/docker) and download docker for your system.
 
 **Download the Anaconda3-SD image**
+
 Once your installation is finished you have to download the docker image to your computer to be able to run Anaconda3-SD. Run the following command:
 
     docker run -it --name anaconda3-sd -p 8888:8888 -v /Users:/opt/notebooks bramvanmeurs/anaconda3-sd
