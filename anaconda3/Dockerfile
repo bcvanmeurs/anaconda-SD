@@ -1,5 +1,5 @@
 FROM continuumio/anaconda3:latest
-RUN conda install -y -c conda-forge geopandas
+# RUN pip install geopandas
 RUN pip install pySD
 RUN pip install ema_workbench
 RUN mkdir /opt/notebooks
