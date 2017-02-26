@@ -1,6 +1,6 @@
 FROM continuumio/anaconda3:latest
-RUN pip install -y pySD
-RUN pip install -y ema_workbench
+RUN pip install pySD
+RUN pip install ema_workbench
 RUN conda config --add channels conda-forge
 RUN conda install -y geopandas
 RUN mkdir /opt/notebooks
